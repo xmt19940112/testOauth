@@ -13,7 +13,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(Principal principal){
-        return "hello"+principal.getName();
+        return "hello v1.1 "+principal.getName();
     }
 
     @GetMapping("/admin/hello")
